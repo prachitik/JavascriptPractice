@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+        
+        <h2>What Can JavaScript Do?</h2>
+
+        <p id="demo"></p>
+        <p id="para">A Paragraph</p>
+
+        <!-- JavaScript Can Change HTML Content -->
+        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello JavaScript!'">Click Me!</button>
+        <button type="button" onclick="myFunction()">Try it</button>
+        <!-- Javasript code must be inserted in script tag -->
+        <script>
+                document.getElementById("demo").innerHTML = "My First JavaScript";
+                function myFunction() {
+                document.getElementById("para").innerHTML = "Paragraph changed.";
+}
+                </script>
+
+</body>
+</html> 
